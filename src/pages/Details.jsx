@@ -4,7 +4,7 @@ import { dummyShowsData } from '../assets/assets'
 import { FaStar } from "react-icons/fa";
 import { FaRegCirclePlay } from "react-icons/fa6";
 import {dummyCastsData} from "../assets/assets.js"
-import { movieDates } from '../assets/assets';
+
 
 const Details = () => {
   const {id} = useParams()
