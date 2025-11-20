@@ -333,3 +333,18 @@ export const dummyBookingData = [
         "isPaid": true,
     },
 ]
+
+export const movieDates =[
+    {"day":"Mon",
+     "date":"15"   },
+     {"day":"Tue",
+     "date":"16"   },
+     {"day":"Wed",
+     "date":"17"   },
+     {"day":"Thue",
+     "date":"18"   },
+     {"day":"Fri",
+     "date":"19"   },
+     {"day":"Sat",
+     "date":"20"   },
+]

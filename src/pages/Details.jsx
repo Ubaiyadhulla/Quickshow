@@ -4,6 +4,7 @@ import { dummyShowsData } from '../assets/assets'
 import { FaStar } from "react-icons/fa";
 import { FaRegCirclePlay } from "react-icons/fa6";
 import {dummyCastsData} from "../assets/assets.js"
+import { movieDates } from '../assets/assets';
 
 const Details = () => {
   const {id} = useParams()
@@ -28,7 +29,7 @@ const Details = () => {
 
       {/* cast */}
       <div>
-        <h3>Your Favorite Caste</h3>
+        <h3 className='font-semibold py-4 text-2xl'>Your Favorite Caste</h3>
         <div className='flex gap-7'>
         {
           dummyCastsData.slice(0,8).map((cast,index)=>(
@@ -41,6 +42,7 @@ const Details = () => {
         </div>
        
       </div>
+
     </div>
   )
 }
